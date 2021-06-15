@@ -8,6 +8,25 @@
             "name": "(gdb) Iniciar",
             "type": "cppdbg",
             "request": "launch",
+            "program": "/media/jefferson/Documentos/dev/IntroducaoAProgramacaoEmC/exercicios/adivinhacao.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "$/media/jefferson/Documentos/dev/IntroducaoAProgramacaoEmC/exercicios",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Habilitar a reformatação automática para gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Iniciar",
+            "type": "cppdbg",
+            "request": "launch",
             "program": "insira o nome do programa, por exemplo ${workspaceFolder}/a.out",
             "args": [],
             "stopAtEntry": false,
